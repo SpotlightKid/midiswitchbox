@@ -1,3 +1,6 @@
+# mbed BUILD directory
+BUILD/
+
 # Prerequisites
 *.d
 
@@ -24,7 +27,6 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
