@@ -6,5 +6,13 @@
         "main_stack_size": {
             "value": 2048
         }
+    },
+    "macros": [
+        "NDEBUG=1"
+    ],
+    "target_overrides": {
+        "*": {
+            "platform.stdio-flush-at-exit": false
+        }
     }
 }
